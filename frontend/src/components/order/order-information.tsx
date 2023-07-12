@@ -15,7 +15,7 @@ export default function OrderInformation({ lang }: { lang: string }) {
   const { price: total } = usePrice(
     data && {
       amount: data.shipping_fee ? data.total + data.shipping_fee : data.total,
-      currencyCode: 'USD',
+      currencyCode: 'SEK',
     }
   );
   if (isLoading)

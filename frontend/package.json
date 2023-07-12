@@ -1,6 +1,6 @@
 {
-  "name": "borobazar",
-  "version": "3.0.0",
+  "name": "Florazi",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "clean": "rimraf .next dist build out node_modules",

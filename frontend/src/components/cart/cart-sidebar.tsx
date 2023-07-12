@@ -20,7 +20,7 @@ export default function CartSidebar({ lang }: { lang: string }) {
   const { items, total, isEmpty, resetCart } = useCart();
   const { price: cartTotal } = usePrice({
     amount: total,
-    currencyCode: 'USD',
+    currencyCode: 'SEK',
   });
   return (
     <div className="flex flex-col justify-between w-full h-full">

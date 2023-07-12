@@ -83,11 +83,11 @@ function Header({ lang }: { lang: string }) {
             <Logo className="-mt-1 logo" />
             {/* End of logo */}
 
-            <HeaderMenu
+            {/* <HeaderMenu
               className="hidden 2xl:flex ltr:pl-10 rtl:pr-10 3xl:w-auto 2xl:mr-auto"
               data={site_header.menu}
               lang={lang}
-            />
+            /> */}
           </div>
           {/* End of menu */}
           {displaySearch && (

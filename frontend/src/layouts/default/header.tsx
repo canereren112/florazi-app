@@ -106,11 +106,11 @@ function Header({ lang }: { lang: string }) {
             <Logo className="!w-0 transition-all duration-200 ease-in-out opacity-0 navbar-logo" />
             {/* End of logo */}
 
-            <HeaderMenu
+            {/* <HeaderMenu
               data={site_header.menu}
               className="flex transition-all duration-200 ease-in-out"
               lang={lang}
-            />
+            /> */}
             {/* End of main menu */}
 
             {displaySearch && (

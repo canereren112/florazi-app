@@ -144,11 +144,11 @@ function Header({ lang }: { lang: string }) {
               {categoryMenu && <CategoryDropdownMenu />}
             </div>
 
-            <HeaderMenu
+            {/* <HeaderMenu
               data={site_header.menu}
               className="flex transition-all duration-200 ease-in-out !w-auto"
               lang={lang}
-            />
+            /> */}
             {/* End of main menu */}
 
             {displaySearch && (

@@ -18,6 +18,8 @@ export default function LanguageSwitcher({ lang }: { lang: string }) {
     .join('/');
 
   const { query } = useQueryParam(pathname ?? '/');
+console.log('lang', lang);
+console.log('options', options);
 
   const currentSelectedItem = lang
     ? options.find((o) => o.value === lang)!

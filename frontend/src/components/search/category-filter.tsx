@@ -15,6 +15,7 @@ export const CategoryFilter = ({ lang }: { lang: string }) => {
   } = useCategoriesQuery({
     limit: 10,
   });
+console.log('data', data);
 
   if (loading) {
     return (

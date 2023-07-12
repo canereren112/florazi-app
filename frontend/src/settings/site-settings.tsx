@@ -4,26 +4,28 @@ import { CNFlag } from '@components/icons/language/CNFlag';
 import { USFlag } from '@components/icons/language/USFlag';
 import { DEFlag } from '@components/icons/language/DEFlag';
 import { ESFlag } from '@components/icons/language/ESFlag';
+import { SVFlag } from '@components/icons/language/SVFlag';
+
 import siteLogo from 'public/assets/images/logo.svg';
 
 export const siteSettings = {
-  name: 'BoroBazar',
+  name: 'Florazi',
   description:
     'Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS.',
   author: {
-    name: 'REDQ',
-    websiteUrl: 'https://redq.io',
+    name: 'Florazi',
+    websiteUrl: 'https://florazi.se',
     address: '',
   },
   logo: {
     url: siteLogo,
-    alt: 'BoroBazar',
-    href: '/en',
+    alt: 'Florazi',
+    href: '/sv',
     width: 128,
     height: 30,
   },
   defaultLanguage: 'en',
-  currencyCode: 'USD',
+  currencyCode: 'SEK',
   site_header: {
     menu: [
       {
@@ -219,17 +221,23 @@ export const siteSettings = {
     ],
     languageMenu: [
       {
-        id: 'ar',
-        name: 'عربى - AR',
-        value: 'ar',
-        icon: <SAFlag />,
+        id: 'sv',
+        name: 'Swedish - SV',
+        value: 'sv',
+        icon: <SVFlag />,
       },
-      {
-        id: 'zh',
-        name: '中国人 - ZH',
-        value: 'zh',
-        icon: <CNFlag />,
-      },
+      // {
+      //   id: 'ar',
+      //   name: 'عربى - AR',
+      //   value: 'ar',
+      //   icon: <SAFlag />,
+      // },
+      // {
+      //   id: 'zh',
+      //   name: '中国人 - ZH',
+      //   value: 'zh',
+      //   icon: <CNFlag />,
+      // },
       {
         id: 'en',
         name: 'English - EN',
@@ -242,18 +250,18 @@ export const siteSettings = {
         value: 'de',
         icon: <DEFlag />,
       },
-      {
-        id: 'he',
-        name: 'rעברית - HE',
-        value: 'he',
-        icon: <ILFlag />,
-      },
-      {
-        id: 'es',
-        name: 'Español - ES',
-        value: 'es',
-        icon: <ESFlag />,
-      },
+      // {
+      //   id: 'he',
+      //   name: 'rעברית - HE',
+      //   value: 'he',
+      //   icon: <ILFlag />,
+      // },
+      // {
+      //   id: 'es',
+      //   name: 'Español - ES',
+      //   value: 'es',
+      //   icon: <ESFlag />,
+      // },
     ],
     pagesMenu: [
       {

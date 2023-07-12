@@ -1,5 +1,113 @@
 [
   {
+    "id": "search01",
+    "name": "Sagolik rosbukett",
+    "slug": "sagolik-rosbukett",
+    "description": "Uppvakta din kärlek med ett fång röda rosor! Sagolik rosbukett är en av våra bästsäljare och passar perfekt när du vill skicka en romantisk blomsterhälsning.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/flowers/f-1.png",
+      "original": "/assets/images/flowers/f-1-m.png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/flowers/f-1-1.png",
+        "original": "/assets/images/flowers/f-1-1.png"
+      },
+      {
+        "id": 2,
+        "thumbnail": "/assets/images/flowers/f-1-2.png",
+        "original": "/assets/images/flowers/f-1-2.png"
+      },
+      {
+        "id": 3,
+        "thumbnail": "/assets/images/flowers/f-1-3.png",
+        "original": "/assets/images/flowers/f-1-3.png"
+      }
+    ],
+    "quantity": 50,
+    "price": 399,
+    "sale_price": 399,
+    "unit": "1 bouquet",
+    "tag": [
+      {
+        "id": 1,
+        "name": "Fresh flowers",
+        "slug": "fresh-flowers"
+      },
+      {
+        "id": 2,
+        "name": "Fragrant",
+        "slug": "fragrant"
+      },
+      {
+        "id": 3,
+        "name": "Romantic",
+        "slug": "romantic"
+      },
+      {
+        "id": 4,
+        "name": "Gift",
+        "slug": "gift"
+      }
+    ]
+  },
+  {
+  "id": "search02",
+  "name": "Vacker tulpanbukett",
+  "slug": "vacker-tulpanbukett",
+  "description": "Förmedla vårkänslor med en vacker bukett av färgglada tulpaner! Denna tulpanbukett är perfekt för att sprida glädje och färg till någon speciell i ditt liv.",
+  "image": {
+    "id": 2,
+    "thumbnail": "/assets/images/flowers/f-2.png",
+    "original": "/assets/images/flowers/f-2-m.png"
+  },
+  "gallery": [
+    {
+      "id": 4,
+      "thumbnail": "/assets/images/flowers/f-2-1.png",
+      "original": "/assets/images/flowers/f-2-1.png"
+    },
+    {
+      "id": 5,
+      "thumbnail": "/assets/images/flowers/f-2-2.png",
+      "original": "/assets/images/flowers/f-2-2.png"
+    },
+    {
+      "id": 6,
+      "thumbnail": "/assets/images/flowers/f-2-3.png",
+      "original": "/assets/images/flowers/f-2-3.png"
+    }
+  ],
+  "quantity": 10,
+  "price": 299,
+  "sale_price": 249,
+  "unit": "1 bouquet",
+  "tag": [
+    {
+      "id": 1,
+      "name": "Fresh flowers",
+      "slug": "fresh-flowers"
+    },
+    {
+      "id": 2,
+      "name": "Fragrant",
+      "slug": "fragrant"
+    },
+    {
+      "id": 5,
+      "name": "Spring",
+      "slug": "spring"
+    },
+    {
+      "id": 6,
+      "name": "Gift",
+      "slug": "gift"
+    }
+  ]
+},
+  {
     "id": "search1",
     "name": "Fresh Green Leaf Lettuce",
     "slug": "Fresh-Green-leaf-Lettuce",
@@ -82,7 +190,7 @@
     ],
     "quantity": 70,
     "price": 2.74,
-    "sale_price": 2.50,
+    "sale_price": 2.5,
     "unit": "1 each",
     "tag": [
       {
@@ -317,7 +425,7 @@
       }
     ],
     "quantity": 170,
-    "price": 1.50,
+    "price": 1.5,
     "sale_price": null,
     "unit": "1 Bag",
     "tag": [

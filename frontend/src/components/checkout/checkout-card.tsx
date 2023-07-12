@@ -26,7 +26,7 @@ const CheckoutCard: React.FC<{ lang: string }> = ({ lang }) => {
   const { items, total, isEmpty } = useCart();
   const { price: subtotal } = usePrice({
     amount: total,
-    currencyCode: 'USD',
+    currencyCode: 'SEK',
   });
   function orderHeader() {
     !isEmpty && router.push(`/${lang}${ROUTES.ORDER}`);

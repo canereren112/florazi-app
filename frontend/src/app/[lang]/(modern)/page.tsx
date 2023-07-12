@@ -15,7 +15,7 @@ import BannerCard from '@components/cards/banner-card';
 import { bundleDataTwo as bundle } from '@framework/static/bundle';
 
 export const metadata: Metadata = {
-  title: 'Grocery & Food Store React Template',
+  title: 'Skicka blommor',
   description:
     'Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS.',
 };

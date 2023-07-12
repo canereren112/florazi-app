@@ -65,11 +65,11 @@ function Header({ lang }: { lang: string }) {
             <Logo className="-mt-1" />
           </div>
 
-          <HeaderMenu
+          {/* <HeaderMenu
             data={site_header.pagesMenu}
             className="hidden w-auto ltr:pl-10 rtl:pr-10 2xl:flex"
             lang={lang}
-          />
+          /> */}
           <Search
             searchId="top-bar-search"
             className="hidden lg:flex lg:max-w-[580px] 3xl:max-w-[700px] lg:ltr:ml-7 lg:rtl:mr-7 lg:ltr:mr-5 lg:rtl:ml-5 2xl:ltr:ml-16 2xl:rtl:mr-16 3xl:ltr:ml-28 3xl:rtl:mr-28 2xl:ltr:mr-auto 2xl:rtl:ml-auto"

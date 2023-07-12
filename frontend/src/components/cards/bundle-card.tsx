@@ -50,7 +50,7 @@ const BundleCard: React.FC<Props> = ({
         </div>
         <div className="py-3 lg:py-5 ltr:pr-4 rtl:pl-4 lg:ltr:pr-3 lg:rtl:pl-3 xl:ltr:pr-4 xl:rtl:pl-4">
           <Heading variant="title" className="mb-[5px]">
-            {t(title)}
+            {t(title) }
           </Heading>
           <p className="text-sm leading-6 lg:text-13px xl:text-sm">
             {t(`${description}`)}

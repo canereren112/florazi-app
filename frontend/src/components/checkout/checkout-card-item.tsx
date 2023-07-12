@@ -6,7 +6,7 @@ import usePrice from '@framework/product/use-price';
 export const CheckoutItem: React.FC<{ item: Item }> = ({ item }) => {
   const { price } = usePrice({
     amount: item.itemTotal,
-    currencyCode: 'USD',
+    currencyCode: 'SEK',
   });
   return (
     <div className="flex items-center py-4 border-b border-border-base ">

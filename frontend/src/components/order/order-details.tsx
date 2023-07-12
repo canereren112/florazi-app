@@ -8,7 +8,7 @@ import { useTranslation } from 'src/app/i18n/client';
 const OrderItemCard = ({ product }: { product: OrderItem }) => {
   const { price: itemTotal } = usePrice({
     amount: product.price * product.quantity,
-    currencyCode: 'USD',
+    currencyCode: 'SEK',
   });
   return (
     <tr
@@ -35,7 +35,7 @@ const OrderDetails: React.FC<{ className?: string; lang: string }> = ({
   const { price: subtotal } = usePrice(
     order && {
       amount: order.total,
-      currencyCode: 'USD',
+      currencyCode: 'SEK',
     }
   );
   const { price: total } = usePrice(
@@ -43,13 +43,13 @@ const OrderDetails: React.FC<{ className?: string; lang: string }> = ({
       amount: order.shipping_fee
         ? order.total + order.shipping_fee
         : order.total,
-      currencyCode: 'USD',
+      currencyCode: 'SEK',
     }
   );
   const { price: shipping } = usePrice(
     order && {
       amount: order.shipping_fee,
-      currencyCode: 'USD',
+      currencyCode: 'SEK',
     }
   );
   if (isLoading) return <p>Loading...</p>;
