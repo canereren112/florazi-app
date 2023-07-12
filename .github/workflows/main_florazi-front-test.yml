@@ -33,11 +33,6 @@ jobs:
       - name: Zip artifact for deployment
         run: |
             zip -r node-app.zip .
-            
-      - name: Commands
-        run: |
-          pwd
-          ls -lart
           
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
@@ -57,11 +52,16 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: node-app
-          
+      
+      - name: Commands
+        run: |
+          pwd
+          ls -lart
+      
       - name: unzip artifact for deployment
         working-directory: '/'
         run: |
-            unzip node-app.zip
+            unzip node-app
             rm node-app.zip
 
       - name: 'Deploy to Azure Web App'
