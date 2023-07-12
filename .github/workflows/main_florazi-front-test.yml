@@ -59,6 +59,7 @@ jobs:
           name: node-app
           
       - name: unzip artifact for deployment
+        working-directory: '/'
         run: |
             unzip node-app.zip
             rm node-app.zip
@@ -67,6 +68,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
+          working-directory: '/'
           app-name: 'florazi-front-test'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BB7343FFA18C4A3A991A9B57DCCD633E }}
