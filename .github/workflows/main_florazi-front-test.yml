@@ -18,8 +18,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-        with:
-          path: 'frontend/'
 
       - name: Set up Node.js version
         uses: actions/setup-node@v1
