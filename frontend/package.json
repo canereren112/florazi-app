@@ -6,7 +6,7 @@
     "clean": "rimraf .next dist build out node_modules",
     "dev": "next dev",
     "build": "next build",
-    "start": "npm install next && next start",
+    "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
     "check-types": "tsc --pretty --noEmit",

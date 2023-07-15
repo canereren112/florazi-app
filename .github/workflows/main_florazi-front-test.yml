@@ -71,3 +71,4 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BB7343FFA18C4A3A991A9B57DCCD633E }}
           package: .
+          startup-command: npm install && npm run start
