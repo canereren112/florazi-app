@@ -32,7 +32,7 @@ jobs:
       
       - name: Zip artifact for deployment
         run: |
-            zip -r node-app.zip build/
+            zip -r node-app.zip .next/
           
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
