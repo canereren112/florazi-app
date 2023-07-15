@@ -43,4 +43,5 @@ tsconfig.tsbuildinfo
 .vercel
 
 #
-.vscode
+.vscode/**
+package-lock.json
