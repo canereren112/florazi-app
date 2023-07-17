@@ -11,21 +11,21 @@ export const bundleData = [
     slug: 'spring-cleaning-for-home-appliance',
     image: '/assets/images/bundle/6.png',
     title: 'bundle-title-two',
-    description: 'bundle-description',
+    description: 'bundle-description-2',
   },
   {
     id: 3,
     slug: 'spring-cleaning-for-home-appliance',
     image: '/assets/images/bundle/7.png',
     title: 'bundle-title-three',
-    description: 'bundle-description',
+    description: 'bundle-description-3',
   },
   {
     id: 4,
     slug: 'spring-cleaning-for-home-appliance',
     image: '/assets/images/bundle/8.png',
     title: 'bundle-title-four',
-    description: 'bundle-description',
+    description: 'bundle-description-4',
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ export const bundleData = [
     slug: 'spring-cleaning-for-home-appliance',
     image: '/assets/images/bundle/11.png',
     title: 'bundle-title-three',
-    description: 'bundle-description',
+    description: 'bundle-description-3',
   },
   {
     id: 8,
@@ -74,7 +74,7 @@ export const bundleData = [
     slug: 'spring-cleaning-for-home-appliance',
     image: '/assets/images/bundle/15.png',
     title: 'bundle-title-three',
-    description: 'bundle-description',
+    description: 'bundle-description-3',
   },
   {
     id: 12,
@@ -99,7 +99,7 @@ export const bundleDataTwo = [
     slug: 'your-pet-choice-for-fresh-healthy-food',
     image: '/assets/images/bundle/2.png',
     title: 'bundle-title-two',
-    description: 'bundle-description',
+    description: 'bundle-description-2',
     bgColor: '#D9ECD2',
   },
   {
@@ -107,17 +107,17 @@ export const bundleDataTwo = [
     slug: 'washing-item-with-discount-product',
     image: '/assets/images/bundle/3.png',
     title: 'bundle-title-three',
-    description: 'bundle-description',
+    description: 'bundle-description-3',
     bgColor: '#DBE5EF',
   },
-  {
-    id: 4,
-    slug: 'fresh-quality-meat-item-with-discount',
-    image: '/assets/images/bundle/4.png',
-    title: 'bundle-title-four',
-    description: 'bundle-description',
-    bgColor: '#EFD8D4',
-  },
+  // {
+  //   id: 4,
+  //   slug: 'fresh-quality-meat-item-with-discount',
+  //   image: '/assets/images/bundle/4.png',
+  //   title: 'bundle-title-four',
+  //   description: 'bundle-description',
+  //   bgColor: '#EFD8D4',
+  // },
 ];
 export const bundleDataThree = [
   {

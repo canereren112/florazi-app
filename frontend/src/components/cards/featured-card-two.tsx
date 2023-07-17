@@ -21,7 +21,7 @@ const FeaturedCard: React.FC<Props> = ({ lang, item, className }) => {
   return (
     <div
       className={cn(
-        'group p-5 md:px-6 xl:px-7 3xl:px-9 flex items-center justify-between bg-[#F4F2EB]',
+        'group p-5 md:px-6 xl:px-7 3xl:px-9 flex items-center justify-between bg-[#f4ebf4]',
         className
       )}
     >

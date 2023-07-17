@@ -37,7 +37,7 @@ export default async function Page({
           lang={lang}
         />
       </Container>
-      <CollectionGrid headingPosition="center" lang={lang} />
+      {/* <CollectionGrid headingPosition="center" lang={lang} /> */}
       <DownloadApps lang={lang} />
     </>
   );

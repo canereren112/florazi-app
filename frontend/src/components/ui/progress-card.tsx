@@ -19,7 +19,7 @@ const ProgressCard: React.FC<Props> = ({
     <div className={`w-full ${className}`}>
       <div className="relative w-full h-2.5 lg:h-3 bg-fill-three rounded-full overflow-hidden">
         <div
-          className="absolute h-full bg-yellow-200 rounded-full bg-opacity-90 bg-progress-striped"
+          className="absolute h-full bg-brand rounded-full bg-opacity-90 bg-progress-striped"
           style={{ width: `${Math.round(progressBar)}%` }}
         />
       </div>

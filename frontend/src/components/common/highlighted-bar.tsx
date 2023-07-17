@@ -10,8 +10,8 @@ type HighlightedBarProps = {
 const variantBasedClasses = {
   dark: 'bg-gray-800',
   primary: 'bg-brand',
-  highlighted: 'bg-yellow-300',
-  highlightedTwo: 'bg-yellow-200',
+  highlighted: 'bg-brand',
+  highlightedTwo: 'bg-brand',
 };
 
 export default function HighlightedBar({

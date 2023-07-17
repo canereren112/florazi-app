@@ -13,6 +13,7 @@ import {
 import FeatureCarousel from '@components/common/featured-carousel';
 import PopularProductWithBestDeals from '@components/product/popular-product-with-best-deals';
 import { Metadata } from 'next';
+import CategoryGridBlock from '@components/common/category-grid-block';
 
 export const metadata: Metadata = {
   title: 'Elegant',
@@ -28,21 +29,23 @@ export default async function Page({
   return (
     <>
       <Container>
+        <CategoryGridBlock lang={lang} />
         <BannerHeroGrid
           data={bannersHero}
           className="my-3 md:my-4 lg:mt-0 lg:mb-5 xl:mb-6"
           lang={lang}
         />
         <FeatureCarousel lang={lang} />
+
         <BestSellerGroceryProductFeed
           className="mb-12 lg:mb-14 xl:mb-16 2xl:mb-20"
           lang={lang}
         />
-        <BundleGrid
+        {/* <BundleGrid
           className="mb-12 lg:mb-14 xl:mb-16 2xl:mb-20"
           data={bundle}
           lang={lang}
-        />
+        /> */}
         <PopularProductWithBestDeals lang={lang} />
 
         <BannerGridTwo
@@ -53,11 +56,11 @@ export default async function Page({
         />
       </Container>
 
-      <CollectionGrid
+      {/* <CollectionGrid
         headingPosition="center"
         className="pb-1 mb-12 lg:pb-0 lg:mb-14 xl:mb-16 2xl:mb-20"
         lang={lang}
-      />
+      /> */}
       <DownloadAppsTwo lang={lang} />
     </>
   );

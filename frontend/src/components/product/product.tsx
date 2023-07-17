@@ -84,7 +84,7 @@ const ProductSingleDetails: React.FC<{ lang: string }> = ({ lang }) => {
 
     const item = generateCartItem(data!, selectedVariation);
     addItemToCart(item, quantity);
-    toast('Added to the bag', {
+    toast(t('text-added-bag'), {
       progressClassName: 'fancy-progress-bar',
       position: width! > 768 ? 'bottom-right' : 'top-right',
       autoClose: 1500,

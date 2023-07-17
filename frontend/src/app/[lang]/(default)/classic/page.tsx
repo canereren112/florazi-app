@@ -35,7 +35,7 @@ export default async function Page({
       <BestSellerProductFeed lang={lang} />
       <FreshVegetablesProductFeed lang={lang} />
       <ChipsProductFeed lang={lang} />
-      <CollectionGrid className="mb-12 lg:mb-14 xl:mb-16" lang={lang} />
+      {/* <CollectionGrid className="mb-12 lg:mb-14 xl:mb-16" lang={lang} /> */}
       <CookiesProductFeed lang={lang} />
       <PopcornJerkyProductFeed lang={lang} />
       <DownloadApps lang={lang} />

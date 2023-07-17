@@ -14,7 +14,7 @@ const data = [
     id: 1,
     icon: (
       <CouponIcon
-        color="#E9AD26"
+        color="#a526e9"
         className="transform scale-75 xl:scale-90 3xl:scale-100"
       />
     ),
@@ -25,7 +25,7 @@ const data = [
     id: 2,
     icon: (
       <CalendarIcon
-        color="#E9AD26"
+        color="#a526e9"
         className="transform scale-75 xl:scale-90 3xl:scale-100"
       />
     ),
@@ -38,7 +38,7 @@ const data = [
       <FeedbackIcon
         width="55px"
         height="55px"
-        color="#E9AD26"
+        color="#a526e9"
         className="transform scale-75 xl:scale-90 3xl:scale-100"
       />
     ),
@@ -49,7 +49,7 @@ const data = [
     id: 4,
     icon: (
       <PromotionIcon
-        color="#E9AD26"
+        color="#a526e9"
         className="transform scale-75 xl:scale-90 3xl:scale-100"
       />
     ),
@@ -60,7 +60,7 @@ const data = [
     id: 5,
     icon: (
       <ChatIcon
-        color="#E9AD26"
+        color="#a526e9"
         width="55px"
         height="55px"
         className="transform scale-75 xl:scale-90 3xl:scale-100"

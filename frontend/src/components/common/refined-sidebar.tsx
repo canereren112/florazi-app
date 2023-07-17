@@ -25,7 +25,7 @@ const RefinedSidebar: React.FC<Props> = ({ lang, className }) => {
       )}
     >
       <div className="h-auto overflow-hidden border-2 border-yellow-200 rounded-md 3xl:h-full shadow-card">
-        <h2 className="bg-yellow-200 text-center font-bold text-brand-dark font-manrope p-2.5 text-15px lg:text-base">
+        <h2 className="bg-brand text-center font-bold text-brand-dark font-manrope p-2.5 text-15px lg:text-base">
           {t('text-deals-of-the-week')}
         </h2>
         <ProductFlashSaleCoral

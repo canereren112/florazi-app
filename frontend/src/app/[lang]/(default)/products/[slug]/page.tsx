@@ -24,7 +24,7 @@ export default async function Page({
       </div>
 
       <RelatedProductFeed uniqueKey="related-products" lang={lang} />
-      <PopcornJerkyProductFeed lang={lang} />
+      {/* <PopcornJerkyProductFeed lang={lang} /> */}
       <DownloadApps lang={lang} />
     </>
   );

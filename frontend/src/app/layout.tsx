@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning={true}>
+    <html lang="sv" suppressHydrationWarning={true}>
       <body
         className={`${inter.variable} ${manrope.variable}`}
         // to prevent any warning that is caused by third party extensions like Grammarly

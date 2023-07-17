@@ -47,11 +47,11 @@ export default async function Page({
         />
         <PopularProductFeed lang={lang} />
       </Container>
-      <CollectionGrid
+      {/* <CollectionGrid
         headingPosition="center"
         className="pb-1 mb-12 lg:pb-0 lg:mb-14 xl:mb-16 2xl:pt-4"
         lang={lang}
-      />
+      /> */}
       <DownloadApps lang={lang} />
     </>
   );

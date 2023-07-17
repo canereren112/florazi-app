@@ -1,64 +1,64 @@
 {
-  "id": "pbsg3",
-  "name": "Fresh Express Iceberg Garden Salad Blend",
-  "slug": "fresh-express-iceberg-garden-salad-blend",
-  "description": "Vegetables are parts of plants that are consumed by humans or other animals as food. the first meaning remains commonly used and is applied to plants collectively to ask all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds. An alternate definition of the term is applied somewhat arbitrarily, often by culinary and cultural tradition. it's going to exclude foods derived from some plants that are fruits, flowers, nuts, and cereal grains, but include savoury fruits like tomatoes and courgettes, flowers like broccoli, and seeds like pulses.",
+  "id": "product1",
+  "name": "Sagolik rosbukett",
+  "slug": "sagolik-rosbukett",
+  "description": "Uppvakta din kärlek med ett fång röda rosor! Sagolik rosbukett är en av våra bästsäljare och passar perfekt när du vill skicka en romantisk blomsterhälsning.",
   "image": {
     "id": 1,
-    "thumbnail": "/assets/images/products/p-3.png",
-    "original": "/assets/images/products/p-3-m.png"
+    "thumbnail": "/assets/images/flowers/f-1.png",
+    "original": "/assets/images/flowers/f-1-m.png"
   },
   "gallery": [
     {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-3-1.png",
-      "original": "/assets/images/products/p-3-1.png"
+      "thumbnail": "/assets/images/flowers/f-1-1.png",
+      "original": "/assets/images/flowers/f-1-1.png"
     },
     {
       "id": 2,
-      "thumbnail": "/assets/images/products/p-3-2.png",
-      "original": "/assets/images/products/p-3-2.png"
+      "thumbnail": "/assets/images/flowers/f-1-2.png",
+      "original": "/assets/images/flowers/f-1-2.png"
     },
     {
       "id": 3,
-      "thumbnail": "/assets/images/products/p-3-3.png",
-      "original": "/assets/images/products/p-3-3.png"
+      "thumbnail": "/assets/images/flowers/f-1-3.png",
+      "original": "/assets/images/flowers/f-1-3.png"
     }
   ],
-  "quantity": 70,
-  "price": null,
-  "sale_price": null,
-  "unit": "1 Bag",
+  "quantity": 5,
+  "price": 399,
+  "sale_price": 399,
+  "unit": "1 bouquet",
   "tag": [
     {
       "id": 1,
-      "name": "Fresh food",
-      "slug": "fresh-food"
+      "name": "Fresh flowers",
+      "slug": "fresh-flowers"
     },
     {
       "id": 2,
-      "name": "Organic",
-      "slug": "organic"
+      "name": "Fragrant",
+      "slug": "fragrant"
     },
     {
       "id": 3,
-      "name": "Cilantro",
-      "slug": "cilantro"
+      "name": "Romantic",
+      "slug": "romantic"
     },
     {
       "id": 4,
-      "name": "Dry Food",
-      "slug": "dry-food"
+      "name": "Gift",
+      "slug": "gift"
     }
   ],
   "product_type": "variable",
-  "max_price": 40,
-  "min_price": 25,
+  "max_price": 749,
+  "min_price": 399,
   "variations": [
     {
       "id": 8,
       "attribute_id": 3,
-      "value": "12oz",
+      "value": "Standard",
       "attribute": {
         "id": 3,
         "slug": "available-in",
@@ -67,17 +67,17 @@
           {
             "id": 8,
             "attribute_id": 3,
-            "value": "12oz"
+            "value": "Standard"
           },
           {
             "id": 9,
             "attribute_id": 3,
-            "value": "24oz"
+            "value": "Mellan"
           },
           {
             "id": 10,
             "attribute_id": 3,
-            "value": "36oz"
+            "value": "Stor"
           }
         ]
       }
@@ -85,7 +85,7 @@
     {
       "id": 9,
       "attribute_id": 3,
-      "value": "24oz",
+      "value": "Mellan",
       "attribute": {
         "id": 3,
         "slug": "available-in",
@@ -94,17 +94,17 @@
           {
             "id": 8,
             "attribute_id": 3,
-            "value": "12oz"
+            "value": "Standard"
           },
           {
             "id": 9,
             "attribute_id": 3,
-            "value": "24oz"
+            "value": "Mellan"
           },
           {
             "id": 10,
             "attribute_id": 3,
-            "value": "36oz"
+            "value": "Stor"
           }
         ]
       }
@@ -112,7 +112,7 @@
     {
       "id": 10,
       "attribute_id": 3,
-      "value": "36oz",
+      "value": "Stor",
       "attribute": {
         "id": 3,
         "slug": "available-in",
@@ -121,17 +121,17 @@
           {
             "id": 8,
             "attribute_id": 3,
-            "value": "12oz"
+            "value": "Standard"
           },
           {
             "id": 9,
             "attribute_id": 3,
-            "value": "24oz"
+            "value": "Mellan"
           },
           {
             "id": 10,
             "attribute_id": 3,
-            "value": "36oz"
+            "value": "Stor"
           }
         ]
       }
@@ -140,8 +140,8 @@
   "variation_options": [
     {
       "id": 247,
-      "title": "12oz",
-      "price": 35,
+      "title": "Standard",
+      "price": 399,
       "sale_price": null,
       "quantity": "10",
       "is_disable": 0,
@@ -149,29 +149,29 @@
       "options": [
         {
           "name": "Available In",
-          "value": "12oz"
+          "value": "Standard"
         }
       ]
     },
     {
       "id": 248,
-      "title": "24oz",
-      "price": 35,
-      "sale_price": 25,
+      "title": "Mellan",
+      "price": 549,
+      "sale_price": 500,
       "quantity": "35",
       "is_disable": 0,
       "sku": "200102",
       "options": [
         {
           "name": "Available In",
-          "value": "24oz"
+          "value": "Mellan"
         }
       ]
     },
     {
-      "id": 249,
-      "title": "36oz",
-      "price": 40,
+      "id": 749,
+      "title": "Stor",
+      "price": 749,
       "sale_price": null,
       "quantity": "25",
       "is_disable": 0,
@@ -179,7 +179,7 @@
       "options": [
         {
           "name": "Available In",
-          "value": "36oz"
+          "value": "Stor"
         }
       ]
     }

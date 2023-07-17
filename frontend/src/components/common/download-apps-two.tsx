@@ -9,7 +9,7 @@ const data = {
   title: 'app-heading',
   description: 'app-description',
   appBG: '/assets/images/app-bg.png',
-  appImage: '/assets/images/app-thumbnail-2.png',
+  appImage: '/assets/images/delivery-man1.png',
   appButtons: [
     {
       id: 1,

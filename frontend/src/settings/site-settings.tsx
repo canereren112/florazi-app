@@ -24,7 +24,7 @@ export const siteSettings = {
     width: 128,
     height: 30,
   },
-  defaultLanguage: 'en',
+  defaultLanguage: 'sv',
   currencyCode: 'SEK',
   site_header: {
     menu: [

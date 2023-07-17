@@ -8,7 +8,7 @@ import { useTranslation } from 'src/app/i18n/client';
 const data = {
   title: 'app-heading',
   description: 'app-description',
-  appImage: '/assets/images/app-thumbnail.png',
+  appImage: '/assets/images/delivery-man1.png',
   appButtons: [
     {
       id: 1,

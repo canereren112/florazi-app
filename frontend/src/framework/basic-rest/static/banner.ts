@@ -42,12 +42,12 @@ export const bannersGridHero = [
     type: 'medium',
     image: {
       mobile: {
-        url: '/assets/images/banner/banner-mobile-10.png',
+        url: '/assets/images/banner/banner-mobile-10.jpg',
         width: 450,
         height: 465,
       },
       desktop: {
-        url: '/assets/images/banner/banner-10.png',
+        url: '/assets/images/banner/banner10.jpg',
         width: 1190,
         height: 500,
       },
@@ -65,7 +65,7 @@ export const bannersGridHero = [
         height: 465,
       },
       desktop: {
-        url: '/assets/images/banner/banner-11.png',
+        url: '/assets/images/banner/banner11.jpg',
         width: 740,
         height: 500,
       },
@@ -324,10 +324,10 @@ export const homeSixHeroBanner = {
   searchBox: true,
   image: {
     mobile: {
-      url: '/assets/images/hero/banner-mobile-4.png',
+      url: '/assets/images/hero/banner-mobile-4.jpg',
     },
     desktop: {
-      url: '/assets/images/hero/banner-4.webp',
+      url: '/assets/images/hero/banner-4-1.png',
     },
   },
 };
@@ -463,12 +463,12 @@ export const homeSixBanner = {
   slug: '/search',
   image: {
     mobile: {
-      url: '/assets/images/banner/banner-mobile-7.png',
+      url: '/assets/images/banner/banner-mobile-71.png',
       width: 450,
       height: 400,
     },
     desktop: {
-      url: '/assets/images/banner/banner-7.png',
+      url: '/assets/images/banner/banner-71.jpg',
       width: 1840,
       height: 400,
     },
