@@ -41,3 +41,7 @@ sw.js
 # ts
 tsconfig.tsbuildinfo
 .vercel
+
+#
+.vscode/**
+package-lock.json

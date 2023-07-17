@@ -2,9 +2,6 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
 name: Build and deploy Node.js app to Azure Web App - florazi-front-test
-defaults:
-  run:
-    working-directory: 'frontend/' # The working directory path
     
 on:
   push:
@@ -15,6 +12,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 'frontend/' # The working directory path
 
     steps:
       - uses: actions/checkout@v3
@@ -29,12 +29,16 @@ jobs:
           npm install
           npm run build --if-present
           npm run test --if-present
+      
+      - name: Zip artifact for deployment
+        run: |
+            zip -r --symlinks node-app.zip ./*
 
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: node-app
-          path: .
+          path: frontend/node-app.zip
 
   deploy:
     runs-on: ubuntu-latest
@@ -45,9 +49,14 @@ jobs:
 
     steps:
       - name: Download artifact from build job
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: node-app
+      
+      - name: Commands
+        run: |
+          pwd
+          ls -lart
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
@@ -56,4 +65,8 @@ jobs:
           app-name: 'florazi-front-test'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BB7343FFA18C4A3A991A9B57DCCD633E }}
-          package: .
+          package: node-app.zip
+            
+      - name: Remoce artifact 
+        run: |
+              rm node-app.zip
